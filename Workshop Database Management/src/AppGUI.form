@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AppGUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="5" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1113" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-2631721"/>
+      <enabled value="true"/>
+      <toolTipText value=""/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="etched" title="Workshop Management App" title-justification="2">
+      <font name="MS Outlook" size="14" style="1"/>
+      <title-color color="-16777216"/>
+      <color color="-5194043"/>
+    </border>
+    <children>
+      <component id="cef5c" class="javax.swing.JTextField" binding="lastNameTextField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="945a2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="17" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="150"/>
+            <preferred-size width="150" height="120"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5263441"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ac650" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <font name="MS Outlook" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="2e7dd" class="javax.swing.JLabel" binding="labelxD">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="MS Outlook" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Enter workshop name:"/>
+        </properties>
+      </component>
+      <hspacer id="a630f">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="b6604">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="bd6b3" class="javax.swing.JLabel" binding="insertionLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MS Outlook" size="12" style="1"/>
+          <text value="Insert data:"/>
+        </properties>
+      </component>
+      <component id="53e3e" class="javax.swing.JTextField" binding="workshopNameField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="2b528" class="javax.swing.JTextField" binding="dayIDField">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="4b654" class="javax.swing.JTextField" binding="numberOfSeatsField">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="3a18f" class="javax.swing.JLabel" binding="workshopNameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MS Outlook" size="12" style="1"/>
+          <text value="Workshop name"/>
+        </properties>
+      </component>
+      <component id="bb6a1" class="javax.swing.JLabel" binding="dayIDLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MS Outlook" size="12" style="1"/>
+          <text value="Day ID"/>
+        </properties>
+      </component>
+      <component id="c7ee1" class="javax.swing.JLabel" binding="numberOfSeatsLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MS Outlook" size="12" style="1"/>
+          <text value="Number of seats"/>
+        </properties>
+      </component>
+      <component id="fa011" class="javax.swing.JButton" binding="dataInsertionButton">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Insert"/>
+        </properties>
+      </component>
+      <component id="ba1b9" class="javax.swing.JButton" binding="buttonSearch">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="c5411" class="javax.swing.JButton" binding="buttonWorkshopInsertionDialog">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Insertion Dialog"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
